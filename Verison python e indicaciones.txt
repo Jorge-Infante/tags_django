@@ -1,0 +1,6 @@
+1. Instala python 3.6.0
+2. Crear entorno virtual ( python -m venv nombre_del_entorno )
+3. Ir a nombre_del_entorno/scripts ... y activate entorno
+4. Ir a la raiz del proyecto (a la altura del manage, o requirements)
+5. Instalar los requerimientos (pip install -r requirements.txt)
+6. Correr el proyecto
