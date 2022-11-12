@@ -67,8 +67,7 @@ def download_tags(request):
         writer = csv.DictWriter(response,delimiter=';',fieldnames=['FQN','StartDateTime','EndDateTime','Average','LastDateTime'])
         writer.writeheader()
         writer.writerows(values_lis)
-
         
-                    
-
-    return response
+        return response
+    else:
+        return render(request,template_name)
