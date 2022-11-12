@@ -1,0 +1,9 @@
+{% block title %} Download tags {% endblock title %} {% block content %}
+    <form method="POST" enctype="multipart/form-data">{% csrf_token %}
+        <input  name="tag" type="text" />
+        <input type="date" name="initDate">
+        <input type="date" name="finishDate">
+
+        <button type="submit">Envia</button>
+    </form>
+{% endblock content %}
